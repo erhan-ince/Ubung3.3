@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+}
+header{
+    background-color: #333;
+    margin: 0;
+}
+header h3{
+    color: #ccc;
+    padding: 5vh 50vw;
+    border: 0px ;
+
+
+}
+section{
+    background: #333;
+}
