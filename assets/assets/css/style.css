@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Gilda+Display&family=Maven+Pro:wght@500&display=swap');
 body{
     margin: 0;
 }
@@ -7,11 +8,81 @@ header{
 }
 header h3{
     color: #ccc;
-    padding: 5vh 50vw;
-    border: 0px ;
-
-
+    margin: 0;
+    border: ;
+    padding: 1vh 0;
+    width: 20px;
 }
-section{
+section:first-of-type{
     background: #333;
+    margin: 0;
+    /* border: 5px solid white; */
+    color: white;
+    text-align: center;    
 }
+section div{
+    background: linear-gradient(45deg, #3dc8d5, #8507e1);
+    margin: 0 1000px;
+    border: 1px solid white;
+    color: white;
+    text-align: center;
+}
+
+section h1{
+    font-family: 'Gilda Display', serif;
+    margin: 0;
+    text-align: center;
+    height: 100px;
+}
+section:nth-of-type(1) p{
+    margin-top: 30px;
+    margin-bottom: 0;
+    color: white;
+  }
+nav{
+    background: #333;
+    color: white;
+    text-align: right;   
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+}
+section:nth-last-of-type(1){
+    width: 80%;
+    margin: 0 auto;
+}
+section:nth-last-of-type(1) img{
+    margin: 0px 0px 0px 500px;
+    width: 800px;
+    height: 500px;
+}
+/* img{
+    margin: 300px px;
+    border: 300px 300px;
+    height: auto;
+    width: auto; 
+} */
+section:nth-last-of-type(1) h1{
+    margin: 0px 0px 0px 500px;
+    text-align: left;
+    height: 100px;
+    width: 1900px;
+}
+section:nth-last-of-type(1) p{
+    margin: 0px 0px 0px 500px;
+    text-align: left;
+    height: 100px;
+    width: 1900px;
+}
+article{
+    margin: 0px 0px 0px 500px;
+    width: 2500px;
+    color: black;
+}
+/* article h1{
+    margin: 0px 0px 0px 500px;  
+}
+article p{
+    margin: 0px 0px 0px 500px;  
+} */
